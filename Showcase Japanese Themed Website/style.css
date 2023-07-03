@@ -1,0 +1,94 @@
+        body {
+            background: rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        
+        }
+
+        header {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 0 0 6px #ff0000, 0 0 5px #0000FF;
+            background: rgb(255, 255, 255);
+            background-image: url(images/header.jpg);
+            text-align: center;
+            font-size: xx-large;
+            height: 150%;
+            padding: 10px;
+            background-size: 100%;
+            background-repeat: none;
+        }
+
+        header .logo a {
+            background-image: url(images/logo.png);
+            background-position: center;
+            border-radius: 50%;
+            background-size: 150px;
+            background-repeat: no-repeat;
+            box-shadow: white 0 0 10px;
+            display: inline-block;
+            height: 90px;
+            width: 120px;
+            text-indent: -999999px;
+            position: relative;
+            top: -13px;
+            
+        }
+
+        section {
+            
+            background: rgb(21, 111, 228);
+            color: rgb(255, 255, 255);
+            
+        }
+
+        li:hover {
+            background-color: dimgrey;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        
+        }
+        li {
+            display: inline-block;
+            margin-right: 20;
+            border-radius: 3px;
+            padding: 2px;
+            margin-left: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        button {
+            background-color: var(--primary-shade-color);
+            border-color: var(--primary-color);
+            text-shadow: 0 0 6px #ffd900, 0 0 5px #f700ff;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+
+
+        footer {
+            background: rgb(21, 111, 228);
+            font-family: 'Roboto Thin';
+            text-align: center;
+            text-align: center;
+            background-attachment: scroll;
+            background-position: 0% 0%;
+            bottom: 0pt;
+        }
